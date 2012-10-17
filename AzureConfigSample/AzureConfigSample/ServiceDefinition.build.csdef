@@ -10,6 +10,9 @@
 -->
 <ServiceDefinition name="AzureConfigSample" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-05.1.7">
   <WebRole name="MvcWebRole1" vmsize="Small">
+    <ConfigurationSettings>
+      <Setting name="Value" />
+    </ConfigurationSettings>
     <Sites>
       <Site name="Web">
         <Bindings>
